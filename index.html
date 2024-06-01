@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo"><span>A</span>kash</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi! I'm Akash Sahu</h1>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                    <span class="word">Programmer</span>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <span class="word">Web&nbsp;Developer</span>
+                </h3>
+            </div>
+            <p>
+                Hello, I'm Akash Sahu, a skilled and enthusiastic programmer with a passion for creating impactful software solutions. As a frontend developer and wed developer, I specialize in crafting engaging user interfaces that seamlessly blend design and functionality.
+                Let's embark on a coding journey together and transform ideas into reality!
+            </p>
+            
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email :</h5>
+                    <span>aakashsahu9415954491@gmail.com</span>
+                </div>
+                <div class="behance-info">
+                    <h5>Contact :</h5>
+                    <span>+91 6386065599</span>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a href="Resume.pdf" download class="btn">Download CV</a>
+                <a href="#" class="btn">Hire Me!</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100027093095317" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/akash-sahu-0a462b248/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="img/homeImage.png" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="img-about scroll-scale">
+            <img src="img/about-image.png" alt="">
+            <!-- <div class="info-about1">
+                <span>10+</span>
+                <p>Years of Experience</p>
+            </div>
+            <div class="info-about2">
+                <span>150+</span>
+                <p>Project Complete</p>
+            </div>
+            <div class="info-about3 ">
+                <span>200+</span>
+                <p>Happy Cionts</p>
+            </div> -->
+        </div>
+        <div class="about-content scroll-scale">
+            <span class="first">Let me introduce myself</span>
+            <h2>About Me</h2>
+            <h3>A story of good</h3>
+            <section id="about-me">
+                <div class="row">
+                    <div class="about-col-2" >
+                        <p class="para">
+                            Greetings! I'm Akash Sahu, a fervent college student fueled by the belief that programming can be a catalyst for positive change. Currently navigating my third year in B.E. at the Institute of Engineering and Technology, Khandari, Agra (Dr. Bhim Rao Ambedkar University, Agra) with a focus on Computer Science and Enginnering.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016-2017</span><br>10th Pass</li>
+                                <li><span>2018-2019</span><br>12th Pass</li>
+                                <li><span>2021-2025</span><br>Pursuing B.E.(CSE) in IET Agra</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="skill">
+                            <ul>
+                                <li><span>Technical Skills</span><br><span class="fnt">Programming Languages:</span> C, Python, Java, JavaScript</span> <br><span class="fnt">Web Development:</span> HTML, CSS, React.js, Node.js, MongoDb <br><span class="fnt">Database Management:</span> MySQL, MongoDB <br><span class="fnt">Version Control:</span> Git, GitHub</li>
+                                <li id="softSkills"><span>Soft Skill</span><br><span class="fnt">Communication:</span> Effectively communicated project updates to team members and stakeholders, ensuring a clear understanding of goals and expectations. <br><span class="fnt">Teamwork:</span> Collaborated with cross-functional teams to achieve project milestones, fostering a positive and inclusive team environment. <br><span class="fnt">Adaptability:</span> Successfully adapted to changing project requirements, demonstrating flexibility and resilience in a dynamic work environment. <br><span class="fnt">Problem-Solving:</span> Identified and resolved challenges in project implementation, improving overall efficiency and minimizing disruptions. <br> <span class="fnt">Time Management:</span> Prioritized tasks and met tight deadlines consistently, ensuring the timely completion of projects. <br> <span class="fnt">Leadership:</span> Led a project team through successful completion, providing guidance and support to team members to achieve shared objectives. <br><span class="fnt">Critical Thinking:</span> Analyzed complex issues to develop innovative solutions, contributing to improved processes and outcomes. <br><span class="fnt">Creativity:</span> Introduced creative approaches to marketing campaigns, resulting in increased engagement and brand visibility.</li>
+                            </ul>
+                            <p id="showMoreButton">. . . . Show More</p>
+                            <p id="showLessButton">Less . . .</p>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span class="fnt">Student: </span>Pursuing in B.E. (CSE) 3rd year.</li>
+                                <li><span class="fnt">Intership: </span>1. C Programming - LearnSmasher in 2023<br> 2. Web Development - TechnoHacks in 2023.</li>
+                                <li><span class="fnt">Projects: </span><b>C: </b> : Tic-Tac-Toi Game, Banking System, Payroll Management System, Calculator <br><b>Java: </b>: Employee Management System, Notepad, Calculator <br><b>Frontend: </b> Portfolio, Countdown Clock, Calculator, and some respondive frontend website design. <br><b>Backend: </b> Registration Form, Pinterset clon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="main-text scroll-scale">
+            <span>what i will do for you</span>
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="section-services scroll-bottom">
+            <div class="service-box">
+                <i class="bx bxs-layer service-icon"></i>
+                <h3>Programmer</h3>
+                <p>As a skilled programmer, I excel in various languages, including <strong>C</strong>, <strong>Python</strong>, <strong>Java</strong>, and <strong>JavaScript</strong>. With a solid foundation in algorithm design and problem-solving, I tackle coding challenges with precision. My proficiency extends to developing applications and solutions that meet the highest standards of efficiency and functionality. Let's collaborate to bring your projects to life!</p>
+
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-desktop service-icon"></i>
+                <h3>Frontend Developer</h3>
+                <p>As a dedicated Frontend Developer, I specialize in crafting seamless and visually appealing user interfaces. With a keen eye for design and a passion for creating engaging web experiences, I bring expertise in HTML, CSS, and JavaScript. My commitment to responsive design ensures that applications look and function flawlessly across devices. Leveraging modern frameworks and libraries, such as React and Vue.js, I transform design concepts into dynamic and interactive websites. Let's collaborate to enhance your digital presence!</p>
+
+
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+                <div class="service-box">
+                    <i class="bx bx-code-alt service-icon"></i>
+                    <h3>Web Developer</h3>
+                    <p>As a skilled Web Developer, I turn innovative ideas into fully functional, aesthetically pleasing websites. My expertise spans the entire web development stack, crafting responsive front-end interfaces with HTML, CSS, and JavaScript. I design robust back-end solutions using technologies like Node.js. Proficient in databases like MongoDB and MySQL, I bring a comprehensive approach to building dynamic and scalable web applications. Let's collaborate to bring your digital vision to life</p>
+
+                    <div class="btn-box service-btn">
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="main-text scroll-scale">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left scroll-scale">
+                <h3>Technical Skill</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>82%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>78%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>C</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="c"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Java</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="java"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Python</p>
+                        <p>68%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="python"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skill</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="60"></div>
+                        <div class="text">
+                            <big>60%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate">
+                <a href="Certificate.html"><span><i class='bx bxs-hand-right'></i></span>Click to show and download my certificate</a>
+                </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="main-text scroll-scale">
+            <span>What i will do for you</span>
+            <h2>Latest Project</h2>
+        </div>
+
+        <div class="container">
+            <div class="fillter-buttons scroll-scale">
+                <button class="button" data-filter="all">All</button>
+                <button class="button" data-filter=".product">Java</button>
+                <button class="button" data-filter=".inter">Frontend</button>
+                <button class="button" data-filter=".web">Web Dev</button>
+            </div>
+            <div class="portfolio-gallery scroll-bottom">
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam. Corporis rem quia reiciendis officia voluptatibus consectetur nemo fuga exercitationem repellendus maiores, unde voluptate at aperiam labore libero similique quas?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="img/img2.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam. Corporis rem quia reiciendis officia voluptatibus consectetur nemo fuga exercitationem repellendus maiores, unde voluptate at aperiam labore libero similique quas?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="img/img3.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam. Corporis rem quia reiciendis officia voluptatibus consectetur nemo fuga exercitationem repellendus maiores, unde voluptate at aperiam labore libero similique quas?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="img/img4.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam. Corporis rem quia reiciendis officia voluptatibus consectetur nemo fuga exercitationem repellendus maiores, unde voluptate at aperiam labore libero similique quas?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="img/img5.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam. Corporis rem quia reiciendis officia voluptatibus consectetur nemo fuga exercitationem repellendus maiores, unde voluptate at aperiam labore libero similique quas?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="img/img6.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laboriosam. Corporis rem quia reiciendis officia voluptatibus consectetur nemo fuga exercitationem repellendus maiores, unde voluptate at aperiam labore libero similique quas?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                   
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="main-text scroll-scale">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+        <div>
+            <form action="#" class="scroll-bottom" name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name">
+                <input type="text" name="Email" placeholder="Your Email">
+                <input type="text" name="Address" placeholder="Your Address">
+                <input type="number" name="Number" placeholder="Your Number">
+                <textarea name="Massage" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
+                <div class="btn-box formBtn">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+            <span id="mssg"></span>
+        </div>
+    </section>
+
+    <footer>
+        <p class="scroll-scale">Copyright &copy; 2023 by AkashSahu || All Right Reserved</p>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkO-8ZpOaKGC1W5a8JH1CWjUQB_ZNhiR6PhtclurV1ewrZg9aji6_umKVCH0M96NFX/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mssg = document.getElementById("mssg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                mssg.innerHTML = "Massage send successfully"
+                setTimeout(function(){
+                    mssg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>window.addEventListener('scroll', function() {
+        const imgAbout = document.querySelector('.img-about');
+        const bounding = imgAbout.getBoundingClientRect();
+    
+        // Check if the element is in the viewport
+        if (bounding.top >= 0 && bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
+            imgAbout.classList.add('floating');
+        } else {
+            imgAbout.classList.remove('floating');
+        }
+    });
+    </script>
+</body>
+</html>
