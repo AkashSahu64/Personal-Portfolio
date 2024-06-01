@@ -876,8 +876,8 @@ section{
 /* ------form msg------- */
 #mssg{
     color: #fdfdfd;
-    margin-left: 500px;
     display: block;
+    text-align: center;
 }
 /* ---------footer--------- */
 footer{
